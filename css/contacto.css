@@ -1,0 +1,120 @@
+.contenedorContacto{
+    background-color: #2c6be0;
+    width: 75%;
+    color: white;
+    margin-left: 14%;
+    margin-right: 20%;
+    margin-top: 44%;
+    
+    height: 500px;
+    display: flex
+}
+.col1{
+   margin-left: 16%;
+    
+    
+}
+.col2{
+   
+    display: flex;
+    margin-left: -25%;
+    width: 30%;
+    height: 10%;
+    margin-top: 13%;
+    
+    
+}
+.con{
+    font-size: 200%;
+    height: 30%;
+}
+.enviar{
+
+    color: white;
+   
+    float: left;    
+    margin-top: 5%;
+    width: 290px;
+    text-align: center;
+    margin-left: 16%;
+    height: 22px;
+    background-color: #1216d4;
+    border-radius: 88px; 
+    
+    
+}
+.nombre, .email, .mensaje{
+    margin-top: 6%;
+    
+}
+.mensajeInput{
+    height: 200%;
+}
+.nombreInput, .emailInput, .mensajeInput{
+    width: 95%;
+}
+.imgSocial{
+   
+    width: 22%;
+    height: 11%;
+    margin-left: -21%;
+    margin-right: 29%;
+    margin-top: 33%;
+}
+.imgSocial img{
+    width: 14%;
+    margin-right: 18%;
+    
+    
+}
+
+@media (max-width: 950px) {
+    .contenedorContacto{
+        margin-top: 150%;
+        height: 990px;
+    }
+    .col1{
+        
+        width: 88%;
+        height: 55%;
+        margin-left: 8%;
+    }
+    .col2{
+        float: left;
+        
+        margin-top: 150%;
+        margin-left: -113%;
+        
+    }
+    .enviar{
+        margin-left: 17%;
+    }
+    
+    .imgSocial{
+   
+        width: 22%;
+        height: 11%;
+        margin-left: -21%;
+        margin-right: 28%;
+        margin-top: 125%;
+        
+        
+    }
+    .imgSocial img{
+        width: 54%;
+        margin-left: -68%; 
+        margin-right: -79%;
+    
+    }
+    
+}
+@media screen and (max-width: 1000px){
+
+    .contenedorContacto .col2{
+        width: 75%;
+        margin-top: 70%;
+    }
+    .imgSocial{
+        margin-top: 130%;
+    }
+}
